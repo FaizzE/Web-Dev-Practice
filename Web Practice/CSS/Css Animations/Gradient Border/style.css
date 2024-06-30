@@ -1,0 +1,13 @@
+.gradient{
+    border-style: solid;
+    height: 50px;
+    border-width: 10px;
+    border-image: linear-gradient(90deg, lightblue, black) 1; 
+    cursor: pointer; 
+  }
+    .gradient:hover{
+       border-style: solid;
+    height: 50px;
+    border-width: 10px;
+    border-image: linear-gradient(-90deg, lightblue, black) 1;  
+       }
