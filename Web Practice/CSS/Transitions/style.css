@@ -1,0 +1,17 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: aqua;
+    /* transition: width 2s; */
+    transition: width 2s, height 4s;
+  }
+  
+  .box:hover {
+    width: 500px;
+    height: 500px;
+  }
