@@ -1,0 +1,24 @@
+div {
+    background-color: burlywood;
+    width: 300px;
+    height: 120px;
+    padding: 50px;
+    box-shadow: 10px 10px;
+
+    /* Specify a color for the shadow: */
+    box-shadow: 10px 10px lightblue;
+
+    /* Add a blur effect to the shadow: */
+
+    box-shadow: 10px 10px 5px lightblue;
+
+    /* Add Multiple Shadows */
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+
+    /* another Example */
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    margin: 20px;
+
+}
